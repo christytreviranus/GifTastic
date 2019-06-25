@@ -35,8 +35,7 @@
                     <div class="card-header">
                         Select a Giphy
                     </div>
-                    <div class="card-body">
-                        
+                    <div class="card-body" id="pmButtons">
                     </div>
                 </div>
             </div>
@@ -49,13 +48,13 @@
                     </div>
                     <div class="card-body">
                         <blockquote class="blockquote mb-0">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            <p>Add your own custom Giphy button to generate random gifs below!</p>
                         </blockquote>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Search..."
+                            <input type="text" class="form-control" id="user-input" placeholder="Search..."
                                 aria-label="Search" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button"> + </button>
+                                <button class="btn btn-outline-secondary" id="submit-button" type="button"> + </button>
                             </div>
                         </div>
                     </div>
@@ -72,8 +71,16 @@
             <div class="card-header">
                 Giphy Results
             </div>
-            <div class="card-body">
-                
+            <div class="card-body" id="results"> 
+                <p style="text-align: center">Click a Giphy to Animate, Click again to Pause</p>
+                    <div class="row">
+							<div class="col-sm-12 col-md-4" id="results-col1">
+							</div>
+							<div class="col-sm-12 col-md-4" id="results-col2">
+							</div>
+							<div class="col-sm-12 col-md-4" id="results-col3">
+                            </div>
+					</div>
             </div>
         </div>
     </div>
@@ -82,11 +89,11 @@
 
 
     <!-- JavaScript / JQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
     <!-- Custom JavaScript / JQuery -->
-    <script type="text/javascript" src="/Trivia-Game/assets/javascript/app.js"></script>
+    <script type="text/javascript" src="/assets/javascript/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
