@@ -8,7 +8,7 @@ let scienceBtn;
 let scienceImage;
 
 function createButtons() {
-
+    $("#user-input").empty(); // erasing anything in this div id so that it doesnt duplicate the results
     for (var i=0; i < topics.length; i++) {
       //Create variable for button.
       var scienceBtn = $("<button>");
