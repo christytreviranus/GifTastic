@@ -19,3 +19,6 @@ This app displays buttons related to a certain topic and allows you to add searc
 - jQuery 
 - AJAX for API GET requests
 
+## Demo
+
+<a href="https://christytreviranus.github.io/GifTastic/">View the finished product here.</a>
